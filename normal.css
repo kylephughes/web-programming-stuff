@@ -1,0 +1,98 @@
+/*
+*Kyle Hughes
+*This is a style sheet for a larger screen 
+*
+*/
+
+@media (min-width: 700px) { 
+   #heading { text-align: center;
+                width: 400px;
+		left:100px;
+                top: 0px;
+                margin: 1px;
+                position: absolute;
+		border: 1px solid red;
+		background-color: gray;
+		padding:5px;  
+ }
+   #bottom{
+	bottom:0;
+	left:0;
+	position:fixed;
+	width:100%;
+	}	
+/*
+*used in hw5
+*/
+ #head { width: 500px;
+	left: 35%;
+	top: 0px;
+	position: absolute;
+	}
+
+  #screenshots{ width: 100px;
+		top: 80px;
+		left:40px;
+		position: absolute;
+		margin: 1px;
+		border: 1px solid red;
+		background-color: grey;
+		padding:5px;
+
+}
+
+   #validation{ width: 115px;
+		position: absolute;
+		top: 80px;
+		left:475px;
+		margin: 1px;
+		border: 1px solid red;
+		background-color: gray;
+		padding: 5px;
+}		
+
+   #picture { left: 180px;
+              width: 130px;
+              top: 80px;
+              margin: 1px;
+              position: absolute;
+	     
+   }
+ #center {
+	   left: 180px;
+	   width: 130px;
+	   top: 80px;
+}
+   #listing {
+	      padding: 10px;
+              left: 180px;
+              margin: 1px;
+              top: 380px;
+	    background-color: gray;
+		border: 1px solid red;	
+              position: absolute;
+}	       
+/*
+ *used in geometry form hw5
+*/
+    #wrapper1{
+		width: 600px;
+		left:55%;
+		top:100px;;
+		margin-left:-400px;
+		position: absolute;
+		border: 1px solid blue;
+		background: rgb(168,236,250);
+	}
+   #wrapper { width: 600px;
+              left: 50%;
+              margin-left:-400px;
+              position: absolute;
+  	}
+   body{
+	margin:0px;
+	padding:0px;
+	background: rgb(249,247,181);
+	}
+ 
+}

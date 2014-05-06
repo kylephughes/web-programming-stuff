@@ -1,0 +1,46 @@
+/* webline.css -- nice style for author, validation, and testing line
+ *
+ * Darren Provine
+ *
+ * $Id: webline.css,v 1.1 2011/01/25 19:35:40 kilroy Exp kilroy $
+ */
+
+table#webline {
+   	position:fixed;
+	 width: 100%;
+   	bottom:0px;
+	 color: #3f1a0a;
+    background: #dfdbc3; 
+    border: 1px solid #3f1a0a;
+    border-collapse: collapse;
+}
+
+table#webline tr {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid #3f1a0a;
+}
+
+table#webline tr td {
+    border:  1px solid #3f1a0a;
+    margin: 0px;
+    padding: 0px;
+}
+
+table#webline tr td a {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+table#webline tr td a:hover {
+    text-decoration: underline;
+}
+
+table#webline tr td img {
+    vertical-align:middle;
+    border:none;
+    margin: 0px;
+    padding: 0px;
+}
